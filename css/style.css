@@ -1,0 +1,29 @@
+/*==================== placeholder ================*/
+
+body{
+    min-width: 1190px;
+
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #050000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container{
+    width: 1190px;
+    padding: 0 10px;
+    margin: 0 auto;
+    outline: 1px solid green;
+}
+
+.clearfix::after{
+    content: "";
+
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
