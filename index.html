@@ -2,9 +2,551 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Главная</title>
+    <script> </script>
+
 </head>
+
 <body>
 
+    <header class="page-header">
+        <div class="page-header__info  container  clearfix">
+            <div class="page-header__address">
+                <a href="#"><b>Наш адрес:</b> г.Шостка, ул. Горького 3а</a>
+            </div>
+            <div class="page-header__work-time">
+                <p><b>Время работы:</b> с 9-00 до 21-00 без выходных</p>
+            </div>
+            <div class="page-header__tel">
+                <a href="tel:+38(096)689-48-08"><b>Телефон:</b> +38(096)689-48-08</a>
+            </div>
+        </div>
+        <div class="page-header__search-block">
+            <div class="container  clearfix">
+
+                <a class="logotype" href="index.html">
+                    <span class="logotype__title">
+                        tool<span class="logotype__yellow-letters">box</span>
+                    </span>
+                    <span class="logotype__description">Продажа строительных инструментов</span>
+                </a>
+
+                <div class="searching-line">
+                    <input class="searching-line__input" type="text" name="search" placeholder="Поиск по сайту">
+                    <a class="searching-line__zoom" href="#"></a>
+                </div>
+                <div class="page-header__call">
+                    <a href="#">Заказать звонок</a>
+                </div>
+        </div>
+
+        </div>
+
+        <!-- navigation -->
+        <nav class="main-nav">
+            <div class="container  clearfix">
+
+                <ul class="main-nav__list">
+                    <li class="main-nav__item">
+                        <a href="">Главная</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="shop.html">Магазин</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="about.html">О нас</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="#">Доставка и оплата</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="news.html">Новости и акции</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                    <li class="main-nav__item"></li>
+                </ul>
+                <div class="main-nav__cart">
+                    <div class="main-nav__quantity-selected"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-content  container  clearfix">
+
+        <!-- categories -->
+        <section class="categories">
+            <div class="categories__title">
+                <h2>Категории товаров</h2>
+            </div>
+            <ul class="categories__list">
+                <li class="categories__item   categories__item--filled">
+                    <a href="#">Шуруповерты, дрели</a>
+                    <ul class="categories__list-drop">
+                        <li class="categories__item-drop"><a href="#">Болгаркa 1</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 2</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 3</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 4</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 5</a></li>
+                    </ul>
+                </li>
+                <li class="categories__item  categories__item--filled">
+                    <a href="#">Болгарки (УШМ)</a>
+                    <ul class="categories__list-drop">
+                        <li class="categories__item-drop"><a href="#">Болгаркa 1</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 2</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 3</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 4</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 5</a></li>
+                    </ul>
+                </li>
+                <li class="categories__item"><a href="#">Бензобуры</a></li>
+                <li class="categories__item"><a href="#">Гайковерты</a></li>
+                <li class="categories__item"><a href="#">Генераторы</a></li>
+                <li class="categories__item"><a href="#">Граверы</a></li>
+                <li class="categories__item"><a href="#">Измерительные приборы</a></li>
+                <li class="categories__item"><a href="#">Лобзики</a></li>
+                <li class="categories__item"><a href="#">Миксеры</a></li>
+                <li class="categories__item"><a href="#">Ножницы по металу</a></li>
+                <li class="categories__item"><a href="#">Опрыскиватели</a></li>
+                <li class="categories__item"><a href="#">Отбойные молотки</a></li>
+                <li class="categories__item"><a href="#">Перфораторы</a></li>
+                <li class="categories__item"><a href="#">Пилы дисковые</a></li>
+                <li class="categories__item  categories__item--filled">
+                    <a href="#">Садовая техника</a>
+                    <ul class="categories__list-drop">
+                        <li class="categories__item-drop"><a href="#">Болгаркa 1</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 2</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 3</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 4</a></li>
+                        <li class="categories__item-drop"><a href="#">Болгаркa 5</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- slider -->
+        <section class="slider">
+
+            <input class="slider__input" id="slide-1" type="radio" name="slides">
+            <section class="slide">
+                <h2>Горячее <span>предложение этого лета</span></h2>
+                <p>50% скидка на перфораторы</p>
+                <a href="#">Подробнее</a>
+            </section>
+
+            <input class="slider__input" id="slide-2" type="radio" name="slides">
+            <section class="slide">
+                <h2>Горячее предложение этого лета</h2>
+                <p>50% скидка на перфораторы</p>
+                <a href="#">Подробнее</a>
+            </section>
+
+            <input class="slider__input" id="slide-3" type="radio" name="slides">
+            <section class="slide">
+                <h2>Горячее предложение этого лета</h2>
+                <p>50% скидка на перфораторы</p>
+                <a href="#">Подробнее</a>
+            </section>
+
+            <input class="slider__input" id="slide-4" type="radio" name="slides">
+            <section class="slide">
+                <h2>Горячее предложение этого лета</h2>
+                <p>50% скидка на перфораторы</p>
+                <a href="#">Подробнее</a>
+            </section>
+            <div class="slider__toggle-list">
+                <label class="slider__toggle-item" for="slide-1"></label>
+                <label class="slider__toggle-item" for="slide-2"></label>
+                <label class="slider__toggle-item" for="slide-3"></label>
+                <label class="slider__toggle-item" for="slide-4"></label>
+            </div>
+        </section>
+
+        <!-- interesting-block -->
+        <div class="interesting-block">
+            <article class="interesting  interesting--new">
+                <span class="interesting__label">Новинка</span>
+                <h1 class="interesting__title">УШМ Bosh prt650a</h1>
+                <p class="interesting__description">Настоящая находка для домашнего умельца</p>
+                <span class="interesting__price">2300 грн.</span>
+                <a class="btn  btn--interesting" href="#">Подробнее</a>
+            </article>
+
+            <article class="interesting  interesting--stock">
+                <span class="interesting__label">акция</span>
+                <h1 class="interesting__title">заголовок акции</h1>
+                <p class="interesting__description">Текстовое описание акции</p>
+                <span class="interesting__price">870 грн.</span>
+                <a class="btn  btn--interesting" href="#">Подробнее</a>
+            </article>
+        </div>
+
+        <!-- catalog -->
+        <section class="catalog">
+            <h2 class="catalog__title">Хиты продаж</h2>
+            <div class="catalog-list">
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- info -->
+        <section class="info">
+            <h2>Здесь можно разместить какую-то информацию о вашем магазине или о проводимых акциях</h2>
+            <p>Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия. По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых клиентов недоумение при попытках прочитать рыбу текст.</p>
+            <a href="#">узнать подробнее</a>
+        </section>
+
+        <!-- catalog -->
+        <section class="catalog">
+            <h2 class="catalog__title">Новинки</h2>
+            <div class="catalog-list">
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+                <article class="catalog-item">
+                    <div class="catalog-item__actions">
+                        <a class="btn  btn--catalog-item-buy" href="#">в корзину</a>
+                        <a class="btn  btn--catalog-item-more" href="#">подробнее</a>
+                    </div>
+
+                    <div class="catalog-item__image">
+                        <img src="images/content/BOSCH-BFG-9000.jpg" height="140" width="218" alt="Перфоратор BOSCH BFG 9000">
+                    </div>
+
+                    <span class="catalog-item__categories">шуруповерты, дрели</span>
+                    <h1 class="catalog-item__title">Акумуляторный шуруповерт HITASHI DS14DVF3</h1>
+                    <div class="catalog-item__price">1950 грн.</div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- conditions -->
+        <div class="conditions">
+
+            <div class="condition condition--guarantee">
+                <h3>Гарантия качества</h3>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="condition condition--technical-center">
+                <h3>Собственный техцентр</h3>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="condition condition--consultants">
+                <h3>Грамотные консультанты</h3>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="condition condition--payment">
+                <h3>Условия оплаты</h3>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений</p>
+                <a href="#">Подробнее</a>
+            </div>
+
+            <div class="condition condition--delivery">
+                <h3>Условия доставки</h3>
+                <p>Текст генерируется абзацами случайным образом от двух до десяти предложений</p>
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- page-footer -->
+    <footer class="page-footer">
+
+        <div class="container">
+            <div class="page-footer__top">
+                <div class="logotype">
+                    <div><span>tool</span><span>box</span></div>
+                    <p>Продажа строительных инструментов</p>
+                </div>
+
+                <section class="footer-nav">
+                    <p class="footer-nav__title">сайт</p>
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item">
+                            <span>Главнвя</span>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="about.html">О магазине</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="news.html">Новости и акцции</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="footer-nav">
+                    <p class="footer-nav__title">Помощь</p>
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item">
+                            <a href="#">Замена и возврат</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="#">Доставка и оплата</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="#">Обратная связь</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="footer-social">
+                    <p>Мы в соцсетях</p>
+                    <a href="#" class="social-btn social-btn-vk">ВКонтакте</a>
+                    <a href="#" class="social-btn social-btn-fb">Facebook</a>
+                    <a href="#" class="social-btn social-btn-inst">Instagram</a>
+                </section>
+            </div>
+
+            <div class="page-footer__bottom">
+                <p>2017 toolbox - магазин строительных инструментов   Design by <a href="#">Onclick.Studio</a></p>
+            </div>
+        </div>
+
+    </footer>
 </body>
 </html>
